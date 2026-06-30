@@ -1,8 +1,24 @@
-header{
-    background-color: #d6d6d6;
+.cabeçalho{
+    background-color: blue;
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    text-align: left;
     padding: 1rem;
+   align-items: center;
+   display: flex;
+}
+.cabeçalho span{
     color: white;
-    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+header{
+    background-color: #c9c9c9;
+    padding: 1.1rem;
+    color: white;
+    border-radius: 30px;
     display: flex;
     justify-content: space-between;
     margin: 1rem; 
@@ -26,29 +42,451 @@ body{
 }
 main{
     margin: 1rem;
-    
 }
 main img{
     max-width: 30px;
     max-height: 30px;
-    border-radius: 10px;
 }
 .ações-usuário{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
 }
-.ações-usuário div{
-    background-color: blue;
-    padding: 1rem;
-    border-radius: 45px;
-    margin: 0.5rem;
-    min-width: 205px;
+.leitor-qrcode{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img1{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.recuperar-senha{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img2{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.pagamento{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img3{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.pix{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img4{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.saque-móvel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img5{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.consultar-envelopes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img6{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.boletos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img7{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.agendar-atendimento{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img8{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .ações-usuário p{
     font-weight: bold;
+    color: black;
+}
+.atendimentos{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.atendimentos h3{
+    font-size: 2rem;
+}
+.atendimentos a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.atendimentos p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.capitais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sac{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.outros-números{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.outros-números a{
+    font-size: 2.1rem;
+    color: black;
+    font-weight: normal;
+}
+.atendimento-libras{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.atendimento-libras a{
+    font-size: 2.1rem;
+    color: black;
+    font-weight: normal;
+}
+@media (max-width: 800px) {
+    .cabeçalho{
+    background-color: blue;
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    text-align: left;
+    padding: 1rem;
+   align-items: center;
+   display: flex;
+}
+.cabeçalho span{
     color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+header{
+    background-color: #c9c9c9;
+    padding: 1.1rem;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem; 
+}
+header .titulo{
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    color: blue;
+    font-size: 2rem;
+}
+header img{
+    max-width: 150px;
+    max-height: 150px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+main{
+    margin: 1rem;
+}
+main img{
+    max-width: 30px;
+    max-height: 30px;
+}
+.ações-usuário{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.leitor-qrcode{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img1{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.recuperar-senha{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img2{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.pagamento{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img3{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.pix{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img4{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.saque-móvel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img5{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.consultar-envelopes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img6{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.boletos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img7{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.agendar-atendimento{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+}
+.ações-img8{
+    background-color: #2163f7e3;
+    border-radius: 65px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.ações-usuário p{
+    font-weight: bold;
+    color: black;
+}
+.atendimentos{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.atendimentos h3{
+    font-size: 2rem;
+}
+.atendimentos a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.atendimentos p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.capitais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sac{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.outros-números{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.outros-números a{
+    font-size: 2.1rem;
+    color: black;
+    font-weight: normal;
+}
+.atendimento-libras{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.atendimento-libras a{
+    font-size: 2.1rem;
+    color: black;
+    font-weight: normal;
+}
 }
