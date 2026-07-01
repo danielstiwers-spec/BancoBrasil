@@ -4,24 +4,24 @@
     height: auto;
     min-height: 40px;
     text-align: left;
-    padding: 1rem;
+    padding: 16px;
    align-items: center;
    display: flex;
 }
 .cabeçalho span{
     color: white;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 
 header{
     background-color: #c9c9c9;
-    padding: 1.1rem;
+    padding: 17.6px;
     color: white;
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    margin: 1rem; 
+    margin: 16px; 
 }
 header .titulo{
     display: flex;
@@ -29,7 +29,7 @@ header .titulo{
 }
 header h1{
     color: blue;
-    font-size: 2rem;
+    font-size: 32px;
 }
 header img{
     max-width: 150px;
@@ -41,7 +41,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 main{
-    margin: 1rem;
+    margin: 16px;
 }
 main img{
     max-width: 30px;
@@ -52,7 +52,7 @@ main img{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 16px;
 }
 .leitor-qrcode{
     display:flex;
@@ -64,8 +64,8 @@ main img{
 .ações-img1{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -80,8 +80,8 @@ main img{
 .ações-img2{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -96,8 +96,8 @@ main img{
 .ações-img3{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -112,8 +112,8 @@ main img{
 .ações-img4{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -128,8 +128,8 @@ main img{
 .ações-img5{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -144,8 +144,8 @@ main img{
 .ações-img6{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -160,8 +160,8 @@ main img{
 .ações-img7{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -176,8 +176,8 @@ main img{
 .ações-img8{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -189,18 +189,18 @@ main img{
 .atendimentos{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 16px;
 }
 .atendimentos h3{
-    font-size: 2rem;
+    font-size: 32px;
 }
 .atendimentos a{
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 .atendimentos p{
-    font-size: 1.1rem;
+    font-size: 17.6px;
     font-weight: 600;
 }
 .whatsapp{
@@ -229,7 +229,7 @@ main img{
     justify-content: space-between;
 }
 .outros-números a{
-    font-size: 2.1rem;
+    font-size: 33.6px;
     color: black;
     font-weight: normal;
 }
@@ -239,7 +239,7 @@ main img{
     justify-content: space-between;
 }
 .atendimento-libras a{
-    font-size: 2.1rem;
+    font-size: 33.6px;
     color: black;
     font-weight: normal;
 }
@@ -250,24 +250,24 @@ main img{
     height: auto;
     min-height: 40px;
     text-align: left;
-    padding: 1rem;
+    padding: 16px;
    align-items: center;
    display: flex;
 }
 .cabeçalho span{
     color: white;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 
 header{
     background-color: #c9c9c9;
-    padding: 1.1rem;
+    padding: 17.6px;
     color: white;
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    margin: 1rem; 
+    margin: 16px; 
 }
 header .titulo{
     display: flex;
@@ -275,7 +275,7 @@ header .titulo{
 }
 header h1{
     color: blue;
-    font-size: 2rem;
+    font-size: 32px;
 }
 header img{
     max-width: 150px;
@@ -287,7 +287,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 main{
-    margin: 1rem;
+    margin: 16px;
 }
 main img{
     max-width: 30px;
@@ -298,7 +298,7 @@ main img{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 16px;
 }
 .leitor-qrcode{
     display:flex;
@@ -310,8 +310,8 @@ main img{
 .ações-img1{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -326,8 +326,8 @@ main img{
 .ações-img2{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -342,8 +342,8 @@ main img{
 .ações-img3{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -358,8 +358,8 @@ main img{
 .ações-img4{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -374,8 +374,8 @@ main img{
 .ações-img5{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -390,8 +390,8 @@ main img{
 .ações-img6{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -406,8 +406,8 @@ main img{
 .ações-img7{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -422,8 +422,8 @@ main img{
 .ações-img8{
     background-color: #2163f7e3;
     border-radius: 65px;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -435,18 +435,18 @@ main img{
 .atendimentos{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 16px;
 }
 .atendimentos h3{
-    font-size: 2rem;
+    font-size: 32px;
 }
 .atendimentos a{
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 .atendimentos p{
-    font-size: 1.1rem;
+    font-size: 17.6px;
     font-weight: 600;
 }
 .whatsapp{
@@ -475,7 +475,7 @@ main img{
     justify-content: space-between;
 }
 .outros-números a{
-    font-size: 2.1rem;
+    font-size: 33.6px;
     color: black;
     font-weight: normal;
 }
@@ -485,7 +485,7 @@ main img{
     justify-content: space-between;
 }
 .atendimento-libras a{
-    font-size: 2.1rem;
+    font-size: 33.6px;
     color: black;
     font-weight: normal;
 }
